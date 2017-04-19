@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vineetha2438/react-native-horizontal-picker.git"
+  },
   "author": "K Vineetha",
   "license": "MIT",
   "dependencies": {
