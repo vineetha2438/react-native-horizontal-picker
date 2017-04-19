@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BAA0A5FF1E9A39950072AF1B /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BAA0A6001E9A39950072AF1B /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				BAA0A6031E9A39C60072AF1B /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		BAA0A4F61E9A0E790072AF1B /* RNTHorizontalPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA0A4F51E9A0E790072AF1B /* RNTHorizontalPickerManager.m */; };
+		BAA0A64E1E9A419C0072AF1B /* AKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA0A64D1E9A419C0072AF1B /* AKPickerView.m */; };
+		BAAF043A1E94F85300F3CB23 /* RNTHorizontalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF04391E94F85300F3CB23 /* RNTHorizontalPicker.m */; };
+		BAAF043B1E94F85300F3CB23 /* RNTHorizontalPicker.h in Copy Files */ = {isa = PBXBuildFile; fileRef = BAAF04381E94F85300F3CB23 /* RNTHorizontalPicker.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAA0A5021E9A11D40072AF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA0A4F71E9A11D40072AF1B /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		BAA0A5041E9A11D40072AF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA0A4F71E9A11D40072AF1B /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		BAA0A5061E9A11D40072AF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA0A4F71E9A11D40072AF1B /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		BAA0A5081E9A11D40072AF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA0A4F71E9A11D40072AF1B /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		BAA0A50A1E9A11D40072AF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA0A4F71E9A11D40072AF1B /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		BAA0A50C1E9A11D40072AF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA0A4F71E9A11D40072AF1B /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		BAA0A50E1E9A11D40072AF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA0A4F71E9A11D40072AF1B /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
+			remoteInfo = jschelpers;
+		};
+		BAA0A5101E9A11D40072AF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA0A4F71E9A11D40072AF1B /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
+			remoteInfo = "jschelpers-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BAAF04331E94F85300F3CB23 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				BAAF043B1E94F85300F3CB23 /* RNTHorizontalPicker.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A170288267473A06C8A101C /* Pods_RNTHorizontalPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNTHorizontalPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA0A4F41E9A0E790072AF1B /* RNTHorizontalPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTHorizontalPickerManager.h; sourceTree = "<group>"; };
+		BAA0A4F51E9A0E790072AF1B /* RNTHorizontalPickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTHorizontalPickerManager.m; sourceTree = "<group>"; };
+		BAA0A4F71E9A11D40072AF1B /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		BAA0A5FB1E9A356B0072AF1B /* AKPickerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AKPickerView.framework; path = "../../../Library/Developer/Xcode/DerivedData/RNTHorizontalPicker-cgczmimadwkfbdezmovctumonhop/Build/Products/Debug-iphonesimulator/AKPickerView/AKPickerView.framework"; sourceTree = "<group>"; };
+		BAA0A64C1E9A419C0072AF1B /* AKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKPickerView.h; sourceTree = "<group>"; };
+		BAA0A64D1E9A419C0072AF1B /* AKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPickerView.m; sourceTree = "<group>"; };
+		BAAF04351E94F85300F3CB23 /* libRNTHorizontalPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTHorizontalPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAF04381E94F85300F3CB23 /* RNTHorizontalPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTHorizontalPicker.h; sourceTree = "<group>"; };
+		BAAF04391E94F85300F3CB23 /* RNTHorizontalPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTHorizontalPicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAAF04321E94F85300F3CB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAA0A4F81E9A11D40072AF1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAA0A5031E9A11D40072AF1B /* libReact.a */,
+				BAA0A5051E9A11D40072AF1B /* libReact.a */,
+				BAA0A5071E9A11D40072AF1B /* libyoga.a */,
+				BAA0A5091E9A11D40072AF1B /* libyoga.a */,
+				BAA0A50B1E9A11D40072AF1B /* libcxxreact.a */,
+				BAA0A50D1E9A11D40072AF1B /* libcxxreact.a */,
+				BAA0A50F1E9A11D40072AF1B /* libjschelpers.a */,
+				BAA0A5111E9A11D40072AF1B /* libjschelpers.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAAF042C1E94F85300F3CB23 = {
+			isa = PBXGroup;
+			children = (
+				BAAF04371E94F85300F3CB23 /* RNTHorizontalPicker */,
+				BAAF04361E94F85300F3CB23 /* Products */,
+				F48778AF8B696CD4238D895C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BAAF04361E94F85300F3CB23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAAF04351E94F85300F3CB23 /* libRNTHorizontalPicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAAF04371E94F85300F3CB23 /* RNTHorizontalPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BAA0A64C1E9A419C0072AF1B /* AKPickerView.h */,
+				BAA0A64D1E9A419C0072AF1B /* AKPickerView.m */,
+				BAA0A4F41E9A0E790072AF1B /* RNTHorizontalPickerManager.h */,
+				BAA0A4F51E9A0E790072AF1B /* RNTHorizontalPickerManager.m */,
+				BAAF04381E94F85300F3CB23 /* RNTHorizontalPicker.h */,
+				BAAF04391E94F85300F3CB23 /* RNTHorizontalPicker.m */,
+			);
+			path = RNTHorizontalPicker;
+			sourceTree = "<group>";
+		};
+		F48778AF8B696CD4238D895C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAA0A5FB1E9A356B0072AF1B /* AKPickerView.framework */,
+				BAA0A4F71E9A11D40072AF1B /* React.xcodeproj */,
+				5A170288267473A06C8A101C /* Pods_RNTHorizontalPicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAAF04341E94F85300F3CB23 /* RNTHorizontalPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAF043E1E94F85300F3CB23 /* Build configuration list for PBXNativeTarget "RNTHorizontalPicker" */;
+			buildPhases = (
+				142BAB838DC4034E30A569D3 /* [CP] Check Pods Manifest.lock */,
+				BAAF04311E94F85300F3CB23 /* Sources */,
+				BAAF04321E94F85300F3CB23 /* Frameworks */,
+				BAAF04331E94F85300F3CB23 /* Copy Files */,
+				6B86F20C5C741AB322DD97C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNTHorizontalPicker;
+			productName = RNTHorizontalPicker;
+			productReference = BAAF04351E94F85300F3CB23 /* libRNTHorizontalPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAAF042D1E94F85300F3CB23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MDL;
+				TargetAttributes = {
+					BAA0A5FF1E9A39950072AF1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					BAAF04341E94F85300F3CB23 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BAAF04301E94F85300F3CB23 /* Build configuration list for PBXProject "RNTHorizontalPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BAAF042C1E94F85300F3CB23;
+			productRefGroup = BAAF04361E94F85300F3CB23 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BAA0A4F81E9A11D40072AF1B /* Products */;
+					ProjectRef = BAA0A4F71E9A11D40072AF1B /* React.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BAAF04341E94F85300F3CB23 /* RNTHorizontalPicker */,
+				BAA0A5FF1E9A39950072AF1B /* UniversalLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BAA0A5031E9A11D40072AF1B /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = BAA0A5021E9A11D40072AF1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAA0A5051E9A11D40072AF1B /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = BAA0A5041E9A11D40072AF1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAA0A5071E9A11D40072AF1B /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = BAA0A5061E9A11D40072AF1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAA0A5091E9A11D40072AF1B /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = BAA0A5081E9A11D40072AF1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAA0A50B1E9A11D40072AF1B /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = BAA0A50A1E9A11D40072AF1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAA0A50D1E9A11D40072AF1B /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = BAA0A50C1E9A11D40072AF1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAA0A50F1E9A11D40072AF1B /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = BAA0A50E1E9A11D40072AF1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BAA0A5111E9A11D40072AF1B /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = BAA0A5101E9A11D40072AF1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		142BAB838DC4034E30A569D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+		6B86F20C5C741AB322DD97C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+		BAA0A6031E9A39C60072AF1B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target ImageFilters ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target ImageFilters -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAAF04311E94F85300F3CB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA0A4F61E9A0E790072AF1B /* RNTHorizontalPickerManager.m in Sources */,
+				BAA0A64E1E9A419C0072AF1B /* AKPickerView.m in Sources */,
+				BAAF043A1E94F85300F3CB23 /* RNTHorizontalPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BAA0A6011E9A39950072AF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAA0A6021E9A39950072AF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAAF043C1E94F85300F3CB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(CONFIGURATION_BUILD_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React";
+			};
+			name = Debug;
+		};
+		BAAF043D1E94F85300F3CB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(CONFIGURATION_BUILD_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAAF043F1E94F85300F3CB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BAAF04401E94F85300F3CB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAA0A6001E9A39950072AF1B /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA0A6011E9A39950072AF1B /* Debug */,
+				BAA0A6021E9A39950072AF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAF04301E94F85300F3CB23 /* Build configuration list for PBXProject "RNTHorizontalPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAF043C1E94F85300F3CB23 /* Debug */,
+				BAAF043D1E94F85300F3CB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAF043E1E94F85300F3CB23 /* Build configuration list for PBXNativeTarget "RNTHorizontalPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAF043F1E94F85300F3CB23 /* Debug */,
+				BAAF04401E94F85300F3CB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAAF042D1E94F85300F3CB23 /* Project object */;
+}
