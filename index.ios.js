@@ -1,6 +1,7 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { requireNativeComponent, Event } from 'react-native';
 import _ from 'lodash';
+import PropTypes from 'prop-types';
 
 const RNTHorizontalPicker = requireNativeComponent('RNTHorizontalPicker', {
   propTypes: {
@@ -49,8 +50,8 @@ HorizontalPicker.defaultProps = {
 };
 
 HorizontalPicker.propTypes = {
-  onChange: React.PropTypes.func.isRequired,
-  selectedIndex: React.PropTypes.number,
-  style: React.PropTypes.object,
-  titles: React.PropTypes.array.isRequired
+  onChange: PropTypes.func.isRequired,
+  selectedIndex: PropTypes.number,
+  style: PropTypes.object,
+  titles: PropTypes.array.isRequired
 };
